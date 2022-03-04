@@ -10,6 +10,6 @@ from shaffle import uniform
 uniform('hello world!')
 uniform('any-object-with-repr')
 
-# can use any hashing function supported by hashlib
+# can use any hashing function supported by [hashlib](https://docs.python.org/3/library/hashlib.html)
 uniform(123, method='sha256')
 ```
